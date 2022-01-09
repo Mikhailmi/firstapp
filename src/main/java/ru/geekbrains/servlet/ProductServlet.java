@@ -8,7 +8,6 @@ import java.util.ArrayList;
 @WebServlet(name = "ProductServlet", urlPatterns = "/product_servlet")
 public class ProductServlet implements Servlet {
 
-
     private transient ServletConfig servletConfig;
 
     @Override
