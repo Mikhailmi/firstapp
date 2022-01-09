@@ -42,7 +42,6 @@ public class ProductServlet implements Servlet {
                     arrayList.get(i).getTitle() + " costs " +
                     arrayList.get(i).getCost() + " rubles" + "</h1>");
         }
-
     }
 
     @Override
@@ -54,7 +53,6 @@ public class ProductServlet implements Servlet {
     @Override
     public void destroy() {
         getServletInfo();
-
     }
 
 }
