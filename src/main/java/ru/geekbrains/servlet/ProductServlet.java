@@ -54,4 +54,5 @@ public class ProductServlet implements Servlet {
     public void destroy() {
         getServletInfo();
     }
+
 }
