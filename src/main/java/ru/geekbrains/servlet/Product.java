@@ -23,6 +23,4 @@ public class Product {
     public int getCost() {
         return cost;
     }
-
-
 }
