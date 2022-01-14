@@ -5,6 +5,9 @@ import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.util.ArrayList;
 
+
+
+
 @WebServlet(name = "ProductServlet", urlPatterns = "/product_servlet")
 public class ProductServlet implements Servlet {
 
@@ -54,5 +57,4 @@ public class ProductServlet implements Servlet {
     public void destroy() {
         getServletInfo();
     }
-
 }
