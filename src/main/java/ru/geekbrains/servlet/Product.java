@@ -1,7 +1,6 @@
 package ru.geekbrains.servlet;
 
 public class Product {
-
     private int id;
     private String title;
     private int cost;
