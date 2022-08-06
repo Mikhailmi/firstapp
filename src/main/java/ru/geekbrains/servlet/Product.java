@@ -5,7 +5,6 @@ public class Product {
     private String title;
     private int cost;
 
-
     public Product(int id, String title, int cost) {
         this.id = id;
         this.title = title;
